@@ -99,3 +99,56 @@ a {
     border-style: solid;
     border-width: 2px;
 }
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 10em;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.customer {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.action-container {
+    padding: 5em 10em;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 1em 5em;
+    line-height: 5px;
+}
+
+.low-button {
+    height: 30px;
+    background-color: #3882F6;
+    border: solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 5px 30px;
+
+}
