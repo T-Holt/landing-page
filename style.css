@@ -42,6 +42,7 @@ a {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    padding-top: 15px;
 }
 
 .header {
@@ -64,4 +65,37 @@ a {
     text-align: center;
     text-decoration: none;
     padding: 5px 25px;
+}
+
+.info-header {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subtext {
+    color: #313f52;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    align-items: center;
+}
+
+.info-photo {
+    border: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
 }
